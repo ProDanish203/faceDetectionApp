@@ -26,3 +26,15 @@ canvas{
   left: 0;
   z-index: 10000;
 }
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+.col1{
+  flex: 1 1 450px;
+}
+.col2{
+  flex: 1 1 450px;
+}
